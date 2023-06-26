@@ -1,5 +1,4 @@
-# IOS_Arish프로젝트 변환하기
----
+# IOS_Arish프로젝트 변환 작업중
 # Arish - 안드로이드 앱프로젝트를 IOS로 변환
 
 <img src="https://user-images.githubusercontent.com/118662365/222961877-071dbd3e-5ece-44e1-88f8-da34470744d3.svg" width="400" height="200"/>
