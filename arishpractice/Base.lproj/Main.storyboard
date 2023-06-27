@@ -356,7 +356,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="그룹 272" translatesAutoresizingMaskIntoConstraints="NO" id="62J-UA-DDF">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="그룹 272" translatesAutoresizingMaskIntoConstraints="NO" id="62J-UA-DDF">
                                 <rect key="frame" x="-10" y="59" width="455" height="593"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="455" id="SFX-6I-phs"/>
@@ -403,7 +403,7 @@
         <image name="그룹 267" width="740" height="268"/>
         <image name="그룹 268" width="740" height="268"/>
         <image name="그룹 270" width="740" height="268"/>
-        <image name="그룹 272" width="942" height="1044"/>
+        <image name="그룹 272" width="942" height="1044"/>
         <image name="마스크 그룹 5" width="40" height="40"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
