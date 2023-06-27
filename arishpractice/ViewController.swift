@@ -13,6 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        //let backnavi = UIBarButtonItem()
+        //backnavi.title = "회원가입"
+        //self.navigationController?.navigationBar.topItem?.backBarButtonItem = backnavi
+        self.navigationController?.navigationBar.tintColor = .black
     }
    
 
