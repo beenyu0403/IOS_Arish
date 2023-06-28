@@ -24,6 +24,11 @@ class ViewController: UIViewController {
     var signEmail:String = ""
     
     
+    @IBAction func loginButtonTapped(_ sender: UIButton) {
+        
+        guard let pushVC = self.storyboard?.instantiateViewController(withIdentifier: "SignInPageView") else { return }
+        self.navigationController?.pushViewController(pushVC, animated: true)
+    }
     
     
 }

@@ -6,7 +6,7 @@
 //
 
 import UIKit
-
+import Firebase
 
 // 비밀번호 형식 검사
 func PasswordFormat(pwdtext: String) -> Bool {
@@ -103,6 +103,17 @@ class SignAddPw: UIViewController {
             pw = pwTextField.text!
             newUser.password = pw
             print(newUser.password)
+            Auth.auth().createUser(withEmail: newUser.email, password: newUser.password) { (user, error) in
+                    if user !=  nil{
+                        print("register success")
+                        return
+                    }
+                    else{
+                        print("register failed")
+                        return
+                    }
+               
+            }
             
             db.collection("USER").document(newUser.email).setData([
                 "email": newUser.email,

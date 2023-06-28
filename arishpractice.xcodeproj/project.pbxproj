@@ -15,6 +15,9 @@
 		CE0682ED2A4A08D600F47A78 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = CE0682EC2A4A08D600F47A78 /* FirebaseFirestore */; };
 		CE0682EF2A4A21E800F47A78 /* SignAddPw.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0682EE2A4A21E800F47A78 /* SignAddPw.swift */; };
 		CE0682F12A4AC73800F47A78 /* SignAddFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0682F02A4AC73800F47A78 /* SignAddFinal.swift */; };
+		CE0682F32A4B14E400F47A78 /* SignInPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE0682F22A4B14E400F47A78 /* SignInPage.swift */; };
+		CE2B93F52A4B2B99003F25E1 /* FindIdOrPwPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B93F42A4B2B99003F25E1 /* FindIdOrPwPage.swift */; };
+		CE2B93F92A4B4274003F25E1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE2B93F82A4B4274003F25E1 /* HomeViewController.swift */; };
 		CEAB188B2978582200067573 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB188A2978582200067573 /* AppDelegate.swift */; };
 		CEAB188D2978582200067573 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB188C2978582200067573 /* SceneDelegate.swift */; };
 		CEAB188F2978582200067573 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEAB188E2978582200067573 /* ViewController.swift */; };
@@ -29,6 +32,9 @@
 		CE0682E92A4A001A00F47A78 /* SignAddViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignAddViewModel.swift; sourceTree = "<group>"; };
 		CE0682EE2A4A21E800F47A78 /* SignAddPw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignAddPw.swift; sourceTree = "<group>"; };
 		CE0682F02A4AC73800F47A78 /* SignAddFinal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignAddFinal.swift; sourceTree = "<group>"; };
+		CE0682F22A4B14E400F47A78 /* SignInPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInPage.swift; sourceTree = "<group>"; };
+		CE2B93F42A4B2B99003F25E1 /* FindIdOrPwPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindIdOrPwPage.swift; sourceTree = "<group>"; };
+		CE2B93F82A4B4274003F25E1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		CEAB18872978582200067573 /* arishpractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = arishpractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEAB188A2978582200067573 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEAB188C2978582200067573 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,10 +90,13 @@
 				CEAB188A2978582200067573 /* AppDelegate.swift */,
 				CEAB188C2978582200067573 /* SceneDelegate.swift */,
 				CE0682F02A4AC73800F47A78 /* SignAddFinal.swift */,
+				CE0682F22A4B14E400F47A78 /* SignInPage.swift */,
 				CE0682E02A484FB800F47A78 /* SignAddPage.swift */,
 				CE0682E92A4A001A00F47A78 /* SignAddViewModel.swift */,
+				CE2B93F42A4B2B99003F25E1 /* FindIdOrPwPage.swift */,
 				CEAB188E2978582200067573 /* ViewController.swift */,
 				CEAB18902978582200067573 /* Main.storyboard */,
+				CE2B93F82A4B4274003F25E1 /* HomeViewController.swift */,
 				CE0682EE2A4A21E800F47A78 /* SignAddPw.swift */,
 				CEAB18932978582400067573 /* Assets.xcassets */,
 				CEAB18952978582400067573 /* LaunchScreen.storyboard */,
@@ -176,10 +185,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE0682F32A4B14E400F47A78 /* SignInPage.swift in Sources */,
+				CE2B93F52A4B2B99003F25E1 /* FindIdOrPwPage.swift in Sources */,
 				CE0682E12A484FB800F47A78 /* SignAddPage.swift in Sources */,
 				CE0682F12A4AC73800F47A78 /* SignAddFinal.swift in Sources */,
 				CE0682EF2A4A21E800F47A78 /* SignAddPw.swift in Sources */,
 				CEAB188F2978582200067573 /* ViewController.swift in Sources */,
+				CE2B93F92A4B4274003F25E1 /* HomeViewController.swift in Sources */,
 				CE0682EA2A4A001A00F47A78 /* SignAddViewModel.swift in Sources */,
 				CEAB188B2978582200067573 /* AppDelegate.swift in Sources */,
 				CEAB188D2978582200067573 /* SceneDelegate.swift in Sources */,

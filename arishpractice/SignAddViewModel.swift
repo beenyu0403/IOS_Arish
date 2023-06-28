@@ -30,7 +30,8 @@ func emailCheck(email: String) -> Bool {
     // 입력한 이메일이 있는지 확인 쿼리
     let query = userDB.whereField("email", isEqualTo: email)
 
-    query.getDocuments() { (qs, err) in
+    query.getDocuments { (qs, err) in
+        
         if qs!.documents.isEmpty {
             print("데이터 중복 안 됨 가입 진행 가능")
             emailCheckresult = true
@@ -43,4 +44,5 @@ func emailCheck(email: String) -> Bool {
     }
     return emailCheckresult
 }
+
 
