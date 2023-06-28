@@ -5,9 +5,16 @@
 
 ## 개발
 - 회원가입 페이지 개발: 2023.06.24 ~
-
+- 로그인 기능까지 개발: ~2023.06.28.
+- 이후 메인 홈 구현 예정
 ## Contents
-![Jun-26-2023 15-06-12](https://github.com/beenyu0403/IOS_Arish/assets/118662365/4a368e72-ab78-4b84-ad85-fdf42ce64d40)
+![Jun-28-2023 16-31-26](https://github.com/beenyu0403/IOS_Arish/assets/118662365/8d3dcec0-3b82-435c-83cb-334d89d1eab6)
+
++로그인 페이지 비밀번호 입력창 security 기능 추가
 
 ## Platform
 IOS
+
+## Member
+김유빈: IOS 개발
+디자인부분은 안드로이드 Arish 프로젝트 디자인 그대로.
