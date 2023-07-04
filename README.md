@@ -14,6 +14,8 @@
 
 
 +로그인 페이지 비밀번호 입력창 security 기능 추가
+<img width="405" alt="스크린샷 2023-07-04 오후 8 57 14" src="https://github.com/beenyu0403/IOS_Arish/assets/118662365/38a7f20b-015e-4a03-92f0-ee88f8b91a87">
+07.04~: 메인 홈 구현 중 (scrollview, collectionview 이용하기)
 
 ## Platform
 IOS
